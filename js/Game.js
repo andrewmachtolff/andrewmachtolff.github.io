@@ -100,9 +100,9 @@ SideScroller.Game.prototype = {
         this.player.isDucked = false;
       }
 
-      //restart the game if reaching the edge
+      //Back to the main menu if reached the end (far right)
       if(this.player.x >= this.game.world.width) {
-        this.game.state.start('Game');
+		location.reload();
       }
     }
 

@@ -22,6 +22,6 @@ SideScroller.Preload.prototype = {
     this.load.audio('coin', ['assets/audio/coin.ogg', 'assets/audio/coin.mp3']);
   },
   create: function() {
-    this.state.start('Game');
+    this.state.start('MainMenu');
   }
 };
